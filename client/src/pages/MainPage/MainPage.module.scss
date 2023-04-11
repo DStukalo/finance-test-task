@@ -1,0 +1,11 @@
+.wrapper {
+	width: var(--width-container-a1);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+
+	@media (max-width: 1439.99px) {
+		width: max(85%, 300px);
+	}
+}
