@@ -1,0 +1,76 @@
+.container {
+	margin-top: 20px;
+	min-height: 50px;
+
+	&:has(.component) {
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+	}
+
+	&:has(.component__item) {
+		border: 2px solid var(--color-black-a1);
+		border-radius: 20px;
+		background-color: var(--color-white-a1);
+	}
+}
+
+.component {
+	position: absolute;
+	animation: run infinite cubic-bezier(0.17, 0.67, 0.83, 0.67);
+	animation-duration: 30s;
+	display: flex;
+	gap: 15px;
+
+	@media (max-width: 899.99px) {
+		animation-duration: 20s;
+	}
+
+	&__item {
+		padding: 5px;
+		min-width: 120px;
+		border-radius: 5px;
+		transition: background-color 0.7s linear;
+	}
+
+	&__item_up {
+		background-color: var(--color-green-a1);
+	}
+
+	&__item_down {
+		background-color: var(--color-violet-a1);
+	}
+}
+
+.component:has(.component__item:nth-child(1)) {
+	--displacement-size: calc(-120px * 1 - 40px);
+}
+
+.component:has(.component__item:nth-child(2)) {
+	--displacement-size: calc(-120px * 2 - 40px);
+}
+.component:has(.component__item:nth-child(3)) {
+	--displacement-size: calc(-120px * 3 - 40px);
+}
+.component:has(.component__item:nth-child(4)) {
+	--displacement-size: calc(-120px * 5 - 40px);
+}
+.component:has(.component__item:nth-child(5)) {
+	--displacement-size: calc(-120px * 6 - 40px);
+}
+.component:has(.component__item:nth-child(6)) {
+	--displacement-size: calc(-120px * 7 - 40px);
+}
+
+@keyframes run {
+	0% {
+		left: var(--displacement-size);
+	}
+	50% {
+		left: 50%;
+	}
+	100% {
+		left: 100%;
+	}
+}
