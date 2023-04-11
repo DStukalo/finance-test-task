@@ -1,0 +1,53 @@
+.header {
+	padding: 12px;
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	background-color: var(--color-green-a2);
+
+	&__logo {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	&__title {
+		width: 100px;
+		font-family: "Karla", sans-serif;
+		font-weight: 700;
+		font-size: var(--font-size-a1);
+		color: var(--color-orange-a2);
+	}
+
+	&__logo_logo {
+		width: 60px;
+		height: 60px;
+		background-image: url("../../../public/logo.png");
+		background-size: cover;
+	}
+}
+
+.navigation {
+	display: flex;
+	gap: 15px;
+
+	&__item {
+		text-decoration: none;
+		font-size: var(--font-size-a2);
+		color: var(--color-orange-a2);
+		@media (max-width: 520.99px) {
+			font-size: var(--font-size-a4);
+		}
+	}
+}
+
+.active {
+	text-decoration: underline;
+	font-size: var(--font-size-a2);
+	color: var(--color-black-a1);
+	@media (max-width: 520.99px) {
+		font-size: var(--font-size-a4);
+	}
+}
