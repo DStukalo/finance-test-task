@@ -1,0 +1,30 @@
+.footer {
+	width: 100%;
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-green-a1);
+}
+
+.container {
+	width: var(--width-container-a1);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	@media (max-width: 520.99px) {
+		font-size: var(--font-size-a4);
+	}
+}
+
+.link {
+	text-decoration: none;
+	color: initial;
+	transition: all 0.4s linear;
+
+	&:hover {
+		color: var(--color-orange-a1);
+		text-decoration: underline var(--color-orange-a1) 1px;
+	}
+}
