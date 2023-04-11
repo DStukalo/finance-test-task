@@ -1,0 +1,137 @@
+.company {
+	padding: 10px;
+	width: 500px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid var(--color-black-a1);
+	font-size: var(--font-size-a4);
+
+	@media (max-width: 520.99px) {
+		width: max(95%, 300px);
+		font-size: var(--font-size-a5);
+	}
+
+	&__name,
+	&__price {
+		width: 55px;
+	}
+
+	&__brand {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	&__up {
+		padding: 5px;
+		width: 80px;
+		height: 30px;
+		border-radius: 5px;
+		display: flex;
+		align-items: center;
+		background-color: var(--color-green-a1);
+	}
+
+	&__up_logo {
+		width: 32px;
+		height: 24px;
+		background-image: url("../../../../public/arrow_up.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	&__down {
+		padding: 5px;
+		width: 80px;
+		height: 30px;
+		border-radius: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: var(--color-violet-a1);
+	}
+
+	&__down_logo {
+		width: 32px;
+		height: 24px;
+		background-image: url("../../../../public/arrow_down.png");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	&__change_up {
+		padding: 5px;
+		width: 75px;
+		border-radius: 5px;
+		text-align: center;
+		background-color: var(--color-green-a1);
+
+		@media (max-width: 520.99px) {
+			display: none;
+		}
+	}
+
+	&__change_down {
+		padding: 5px;
+		width: 75px;
+		border-radius: 5px;
+		text-align: center;
+		background-color: var(--color-violet-a1);
+
+		@media (max-width: 520.99px) {
+			display: none;
+		}
+	}
+
+	&__btn {
+		padding: 5px;
+		width: 30px;
+		background-color: inherit;
+		border-radius: 50%;
+		font-size: var(--font-size-a2);
+		color: var(--color-orange-a2);
+		border: 2px solid var(--color-orange-a2);
+	}
+}
+
+.Facebook {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../../public/assets/facebook_png.png);
+	background-size: cover;
+}
+
+.Apple {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../../public/assets/apple_icon.svg);
+	background-size: cover;
+}
+
+.Alphabet {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../../public/assets/google_icon.svg);
+}
+
+.Microsoft {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../../public/assets/microsoft_icon.svg);
+}
+
+.Amazon {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../../public/assets/amazon_icon.svg);
+}
+
+.Tesla {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../../public/assets/tesla_icon.svg);
+}
