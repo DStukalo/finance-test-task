@@ -1,0 +1,824 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyList component CompanyList snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="companies"
+      >
+        <h3
+          class="companies__title"
+        >
+          Our Company
+        </h3>
+        <div
+          class="loading"
+        >
+          loading...
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="companies"
+    >
+      <h3
+        class="companies__title"
+      >
+        Our Company
+      </h3>
+      <div
+        class="loading"
+      >
+        loading...
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`CompanyList component CompanyList snapshot with correct values of store 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="companies"
+      >
+        <h3
+          class="companies__title"
+        >
+          Our Company
+        </h3>
+        <div
+          class="list"
+        >
+          <div
+            class="company"
+          >
+            <div
+              class="company__brand"
+            >
+              <div
+                class="Apple"
+              />
+              <div
+                class="company__name"
+              >
+                Apple
+              </div>
+            </div>
+            <p
+              class="company__price"
+            >
+              137.33
+              $
+            </p>
+            <div
+              class="company__down"
+            >
+              <p>
+                0.35
+                %
+              </p>
+              <div
+                class="company__down_logo"
+              />
+            </div>
+            <div
+              class="company__change_down"
+            >
+              -
+              171.57
+              $
+            </div>
+            <button
+              class="company__btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="company"
+          >
+            <div
+              class="company__brand"
+            >
+              <div
+                class="Alphabet"
+              />
+              <div
+                class="company__name"
+              >
+                Alphabet
+              </div>
+            </div>
+            <p
+              class="company__price"
+            >
+              251.27
+              $
+            </p>
+            <div
+              class="company__down"
+            >
+              <p>
+                0.81
+                %
+              </p>
+              <div
+                class="company__down_logo"
+              />
+            </div>
+            <div
+              class="company__change_down"
+            >
+              -
+              175.21
+              $
+            </div>
+            <button
+              class="company__btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="company"
+          >
+            <div
+              class="company__brand"
+            >
+              <div
+                class="Microsoft"
+              />
+              <div
+                class="company__name"
+              >
+                Microsoft
+              </div>
+            </div>
+            <p
+              class="company__price"
+            >
+              141.77
+              $
+            </p>
+            <div
+              class="company__down"
+            >
+              <p>
+                0.46
+                %
+              </p>
+              <div
+                class="company__down_logo"
+              />
+            </div>
+            <div
+              class="company__change_down"
+            >
+              -
+              189.53
+              $
+            </div>
+            <button
+              class="company__btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="company"
+          >
+            <div
+              class="company__brand"
+            >
+              <div
+                class="Amazon"
+              />
+              <div
+                class="company__name"
+              >
+                Amazon
+              </div>
+            </div>
+            <p
+              class="company__price"
+            >
+              205.48
+              $
+            </p>
+            <div
+              class="company__down"
+            >
+              <p>
+                0.46
+                %
+              </p>
+              <div
+                class="company__down_logo"
+              />
+            </div>
+            <div
+              class="company__change_down"
+            >
+              -
+              46.43
+              $
+            </div>
+            <button
+              class="company__btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="company"
+          >
+            <div
+              class="company__brand"
+            >
+              <div
+                class="Facebook"
+              />
+              <div
+                class="company__name"
+              >
+                Facebook
+              </div>
+            </div>
+            <p
+              class="company__price"
+            >
+              241.02
+              $
+            </p>
+            <div
+              class="company__down"
+            >
+              <p>
+                0.09
+                %
+              </p>
+              <div
+                class="company__down_logo"
+              />
+            </div>
+            <div
+              class="company__change_down"
+            >
+              -
+              171.42
+              $
+            </div>
+            <button
+              class="company__btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            class="company"
+          >
+            <div
+              class="company__brand"
+            >
+              <div
+                class="Tesla"
+              />
+              <div
+                class="company__name"
+              >
+                Tesla
+              </div>
+            </div>
+            <p
+              class="company__price"
+            >
+              296.22
+              $
+            </p>
+            <div
+              class="company__down"
+            >
+              <p>
+                0.67
+                %
+              </p>
+              <div
+                class="company__down_logo"
+              />
+            </div>
+            <div
+              class="company__change_down"
+            >
+              -
+              157.71
+              $
+            </div>
+            <button
+              class="company__btn"
+              type="button"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="companies"
+    >
+      <h3
+        class="companies__title"
+      >
+        Our Company
+      </h3>
+      <div
+        class="list"
+      >
+        <div
+          class="company"
+        >
+          <div
+            class="company__brand"
+          >
+            <div
+              class="Apple"
+            />
+            <div
+              class="company__name"
+            >
+              Apple
+            </div>
+          </div>
+          <p
+            class="company__price"
+          >
+            137.33
+            $
+          </p>
+          <div
+            class="company__down"
+          >
+            <p>
+              0.35
+              %
+            </p>
+            <div
+              class="company__down_logo"
+            />
+          </div>
+          <div
+            class="company__change_down"
+          >
+            -
+            171.57
+            $
+          </div>
+          <button
+            class="company__btn"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="company"
+        >
+          <div
+            class="company__brand"
+          >
+            <div
+              class="Alphabet"
+            />
+            <div
+              class="company__name"
+            >
+              Alphabet
+            </div>
+          </div>
+          <p
+            class="company__price"
+          >
+            251.27
+            $
+          </p>
+          <div
+            class="company__down"
+          >
+            <p>
+              0.81
+              %
+            </p>
+            <div
+              class="company__down_logo"
+            />
+          </div>
+          <div
+            class="company__change_down"
+          >
+            -
+            175.21
+            $
+          </div>
+          <button
+            class="company__btn"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="company"
+        >
+          <div
+            class="company__brand"
+          >
+            <div
+              class="Microsoft"
+            />
+            <div
+              class="company__name"
+            >
+              Microsoft
+            </div>
+          </div>
+          <p
+            class="company__price"
+          >
+            141.77
+            $
+          </p>
+          <div
+            class="company__down"
+          >
+            <p>
+              0.46
+              %
+            </p>
+            <div
+              class="company__down_logo"
+            />
+          </div>
+          <div
+            class="company__change_down"
+          >
+            -
+            189.53
+            $
+          </div>
+          <button
+            class="company__btn"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="company"
+        >
+          <div
+            class="company__brand"
+          >
+            <div
+              class="Amazon"
+            />
+            <div
+              class="company__name"
+            >
+              Amazon
+            </div>
+          </div>
+          <p
+            class="company__price"
+          >
+            205.48
+            $
+          </p>
+          <div
+            class="company__down"
+          >
+            <p>
+              0.46
+              %
+            </p>
+            <div
+              class="company__down_logo"
+            />
+          </div>
+          <div
+            class="company__change_down"
+          >
+            -
+            46.43
+            $
+          </div>
+          <button
+            class="company__btn"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="company"
+        >
+          <div
+            class="company__brand"
+          >
+            <div
+              class="Facebook"
+            />
+            <div
+              class="company__name"
+            >
+              Facebook
+            </div>
+          </div>
+          <p
+            class="company__price"
+          >
+            241.02
+            $
+          </p>
+          <div
+            class="company__down"
+          >
+            <p>
+              0.09
+              %
+            </p>
+            <div
+              class="company__down_logo"
+            />
+          </div>
+          <div
+            class="company__change_down"
+          >
+            -
+            171.42
+            $
+          </div>
+          <button
+            class="company__btn"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="company"
+        >
+          <div
+            class="company__brand"
+          >
+            <div
+              class="Tesla"
+            />
+            <div
+              class="company__name"
+            >
+              Tesla
+            </div>
+          </div>
+          <p
+            class="company__price"
+          >
+            296.22
+            $
+          </p>
+          <div
+            class="company__down"
+          >
+            <p>
+              0.67
+              %
+            </p>
+            <div
+              class="company__down_logo"
+            />
+          </div>
+          <div
+            class="company__change_down"
+          >
+            -
+            157.71
+            $
+          </div>
+          <button
+            class="company__btn"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`CompanyList component CompanyList snapshot with falsy values of store 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="companies"
+      >
+        <h3
+          class="companies__title"
+        >
+          Our Company
+        </h3>
+        <div
+          class="loading"
+        >
+          loading...
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="companies"
+    >
+      <h3
+        class="companies__title"
+      >
+        Our Company
+      </h3>
+      <div
+        class="loading"
+      >
+        loading...
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

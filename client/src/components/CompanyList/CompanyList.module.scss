@@ -1,0 +1,20 @@
+.companies {
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 500px;
+
+	@media (max-width: 899.99px) {
+		margin: 0 auto;
+	}
+
+	@media (max-width: 520.99px) {
+		width: max(95%, 300px);
+	}
+
+	&__title {
+		font-size: var(--font-size-a1);
+		padding: 5px;
+	}
+}
