@@ -9,7 +9,6 @@ export function RunningLine() {
 	} = useTrickersFacade();
 	const runLine = useRunningLineFacade();
 	const runLineStatus = useRunningLineStatusFacade();
-
 	return (
 		<div className={styles.container}>
 			<div className={styles.component}>

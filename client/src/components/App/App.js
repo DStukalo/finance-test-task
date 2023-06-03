@@ -28,14 +28,13 @@ function App() {
 	const chartStore = useChartStore();
 
 	useEffect(() => {
-		const socket = io('http://localhost:4000/');
+		const socket = io('https://finance-back-end.onrender.com/');
 
 		socket.on('connect', () => {
 			store.setLoaded();
 			socket.on('ticker', (tickers) => {
 				if (Array.isArray(tickers)) {
 					tickers.forEach((element) => {
-						// console.log(element);
 						if (typeof element === 'object') {
 							switch (element.ticker) {
 							case 'AAPL':
